@@ -4,11 +4,22 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import train_test_split 
 from sklearn.preprocessing import StandardScaler 
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score 
+from sklearn.kernel_ridge import KernelRidge
 
 def get_decision_tree_model():  
 
     model = DecisionTreeRegressor(
         random_state=42
+    )
+
+    return model
+
+def get_kernel_model():
+
+    model = KernelRidge(
+        kernel='rbf',
+        alpha=1.0,
+        gamma=0.1
     )
 
     return model

@@ -11,3 +11,16 @@ R2   : 0.86
 Average MSE Score: 10.4161
 
 
+
+==========================
+Model: Kernel Ridge Regressor
+==========================
+MAE  : 2.66
+MSE  : 20.29
+RMSE : 4.50
+R2   : 0.72
+
+
+Average MSE Score: 20.2850
+
+
