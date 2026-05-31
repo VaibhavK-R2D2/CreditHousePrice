@@ -1,0 +1,13 @@
+
+==========================
+Model: Decision Tree Regressor
+==========================
+MAE  : 2.39
+MSE  : 10.42
+RMSE : 3.23
+R2   : 0.86
+
+
+Average MSE Score: 10.4161
+
+
